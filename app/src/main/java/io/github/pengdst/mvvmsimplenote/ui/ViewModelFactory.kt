@@ -17,7 +17,7 @@ class ViewModelFactory(private val noteRepository: NoteRepository) : ViewModelPr
 
     @Suppress("UNCHECKED_CAST")
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
-        return if (modelClass.isInstance(MainViewModel::class.java)){
+        return if (modelClass.isAssignableFrom(MainViewModel::class.java)){
             MainViewModel(noteRepository)
         }
         else {
