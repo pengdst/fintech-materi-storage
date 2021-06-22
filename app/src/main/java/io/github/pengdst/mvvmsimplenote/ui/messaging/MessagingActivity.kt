@@ -14,19 +14,5 @@ class MessagingActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_messaging)
-
-        Firebase.messaging.token.addOnCompleteListener(OnCompleteListener { task ->
-            if (!task.isSuccessful) {
-                Log.e("MessagingToken", "Fetching FCM registration token failed", task.exception)
-                return@OnCompleteListener
-            }
-
-            val token = task.result
-            val msg = "Device token: ${ token.toString() }"
-
-            Log.e("MessagingToken", msg)
-            Toast.makeText(applicationContext, msg, Toast.LENGTH_SHORT).show()
-        })
-
     }
 }
