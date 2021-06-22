@@ -29,7 +29,7 @@ class MyMessagingService : FirebaseMessagingService() {
     }
 
     private fun postToken(token: String) {
-
+        Log.e("RefreshToken", "postToken: $token")
     }
 
     override fun onMessageReceived(remoteMessage: RemoteMessage) {
