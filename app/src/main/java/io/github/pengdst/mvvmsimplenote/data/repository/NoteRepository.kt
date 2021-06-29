@@ -18,7 +18,7 @@ import kotlinx.coroutines.withContext
 class NoteRepository(
     private val noteDao: NoteDao,
     private val noteService: NoteService
-    ) {
+) : BaseRepository() {
 
     fun getAllNotes() = noteDao.getAllNotes()
 
