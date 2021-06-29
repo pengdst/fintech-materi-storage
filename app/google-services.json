@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "772192828469",
+    "project_id": "messagingsample-49318",
+    "storage_bucket": "messagingsample-49318.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772192828469:android:2dc2fe5cde2882b940057c",
+        "android_client_info": {
+          "package_name": "io.github.pengdst.mvvmsimplenote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772192828469-n5dgkvggb5628sljpqnqkqqpqgkic9le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1tjmOXjtrstFQN1dCIakqkq6bvLLuKig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772192828469-n5dgkvggb5628sljpqnqkqqpqgkic9le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
